@@ -1,25 +1,28 @@
 // components/Footer.tsx
 
-import { hotelData } from "@/../hotel-data.json";
 import { Phone, Mail, MapPin } from "lucide-react";
 import Link from "next/link";
+import { HotelData } from "@/types/hotel"; // Tipi import edin
 
-export default function Footer() {
+interface FooterProps {
+  hotelData: HotelData;
+}
+
+export default function Footer({ hotelData }: FooterProps) {
   const contact = hotelData["seo-social-media"];
   const address = hotelData["hotel-address"];
   const general = hotelData.general;
 
   return (
     <footer className="w-full bg-secondary text-secondary-foreground">
+      {/*... Footer içeriği ...*/}
       <div className="container py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Sütun 1: Otel Hakkında */}
         <div>
           <h3 className="font-bold text-lg">{general.name}</h3>
           <p className="mt-2 text-sm text-secondary-foreground/80">
             En lüks deneyim ve kaliteli hizmetin markası.
           </p>
         </div>
-        {/* Sütun 2: Sayfalar */}
         <div>
           <h3 className="font-bold text-lg">Hızlı Erişim</h3>
           <ul className="mt-2 space-y-2">
@@ -29,7 +32,6 @@ export default function Footer() {
             <li><Link href="/hakkimizda" className="text-sm hover:underline">Hakkımızda</Link></li>
           </ul>
         </div>
-        {/* Sütun 3: İletişim */}
         <div>
           <h3 className="font-bold text-lg">Bize Ulaşın</h3>
           <ul className="mt-2 space-y-2">
@@ -47,8 +49,9 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        {/* Sütun 4: Sosyal Medya (Eğer varsa) */}
-        {/* Bu bölümü JSON'daki verilere göre doldurabilirsiniz */}
+        <div>
+           {/* JSON'daki sosyal medya verilerine göre doldurulabilir. */}
+        </div>
       </div>
       <div className="w-full bg-background/10 py-4">
         <div className="container text-center text-sm text-secondary-foreground/60">
