@@ -15,12 +15,12 @@ export default function AboutSection({ description, image }: AboutProps) {
         {/* Sol Taraf: Resim */}
         <div className="relative w-full h-80 md:h-full rounded-lg overflow-hidden">
           <Image
-            src={image}
-            alt="Otel Hakkında"
-            layout="fill"
-            objectFit="cover" // Resmi kırparak alanı doldurur
-            className="transition-transform duration-500 hover:scale-105"
-          />
+  src={image}
+  alt="Otel Hakkında"
+  fill
+  style={{ objectFit: "cover" }}
+  className="transition-transform duration-500 hover:scale-105"
+/>
         </div>
         {/* Sağ Taraf: Yazı */}
         <div className="flex flex-col justify-center">
