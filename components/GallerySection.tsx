@@ -34,8 +34,8 @@ export default function GallerySection({ images }: GalleryProps) {
                             <Image
                                 src={img["image-url"]}
                                 alt={img["image-alt"]}
-                                layout="fill"
-                                objectFit="cover"
+                                fill
+                                style={{ objectFit: "cover" }}
                                 className="transition-transform duration-500 group-hover:scale-110"
                             />
                         </div>
