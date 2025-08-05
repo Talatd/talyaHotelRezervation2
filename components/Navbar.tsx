@@ -1,13 +1,14 @@
 // components/Navbar.tsx
 
 import Link from "next/link";
-import { hotelData } from "@/../hotel-data.json";
 import { Button } from "./ui/button";
 
-export default function Navbar() {
-  const logoUrl = hotelData.footer["logo-url"];
-  const hotelName = hotelData.general.name;
+interface NavbarProps {
+  hotelName: string;
+  logoUrl: string;
+}
 
+export default function Navbar({ hotelName, logoUrl }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center">
