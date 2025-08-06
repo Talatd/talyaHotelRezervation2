@@ -1,52 +1,52 @@
 {
   "general": {
     "name": "Talat Otel",
-    "default-language": "tr"
+    "defaultLanguage": "tr"
   },
-  "hotel-info": {
+  "hotelInfo": {
     "descriptions": {
       "TR": "<p>Talia Otel, Akdeniz'in berrak sularına sıfır konumuyla benzersiz bir tatil deneyimi sunar. Modern mimarisi, lüks odaları ve kusursuz hizmet anlayışıyla misafirlerine unutulmaz anlar yaşatır. Şehrin gürültüsünden uzak, doğayla iç içe bir atmosferde huzur bulacaksınız.</p><p>Restoranlarımızda yöresel ve dünya mutfağından seçkin lezzetleri tadabilir, SPA merkezimizde kendinizi yenileyebilir veya sonsuzluk havuzumuzda manzaranın keyfini çıkarabilirsiniz.</p>"
     },
-    "default-image": "/images/about.jpg",
+    "defaultImage": "/images/about.jpg",
     "amenities": "[{\"amenity-icon\":\"ha-Wi-FiInternetConnection\",\"amenity-names\":{\"TR\":\"Ücretsiz Wi-Fi\"}},{\"amenity-icon\":\"ha-SwimmingPool\",\"amenity-names\":{\"TR\":\"Kapalı & Açık Havuz\"}},{\"amenity-icon\":\"ha-SpaWellnesscenter\",\"amenity-names\":{\"TR\":\"Spa & Wellness Merkezi\"}},{\"amenity-icon\":\"ha-Restaurant\",\"amenity-names\":{\"TR\":\"Restoran\"}},{\"amenity-icon\":\"ha-RentalCar\",\"amenity-names\":{\"TR\":\"Ücretsiz Otopark\"}},{\"amenity-icon\":\"ha-FitnessCenter\",\"amenity-names\":{\"TR\":\"Fitness Merkezi\"}}]"
   },
   "images": [
     {
-      "image-url": "/images/hero.jpg",
-      "image-alt": "Otel Ön Görünüm",
-      "image-default-image": true
+      "imageUrl": "/images/hero.jpg",
+      "imageAlt": "Otel Ön Görünüm",
+      "isDefaultImage": true
     },
     {
-      "image-url": "/images/gallery1.jpg",
-      "image-alt": "Oda Görünümü"
+      "imageUrl": "/images/gallery1.jpg",
+      "imageAlt": "Oda Görünümü"
     },
     {
-      "image-url": "/images/gallery2.jpg",
-      "image-alt": "Havuz"
+      "imageUrl": "/images/gallery2.jpg",
+      "imageAlt": "Havuz"
     },
     {
-      "image-url": "/images/gallery3.jpg",
-      "image-alt": "Restoran"
+      "imageUrl": "/images/gallery3.jpg",
+      "imageAlt": "Restoran"
     },
     {
-      "image-url": "/images/gallery4.jpg",
-      "image-alt": "Spa"
+      "imageUrl": "/images/gallery4.jpg",
+      "imageAlt": "Spa"
     },
     {
-      "image-url": "/images/gallery5.jpg",
-      "image-alt": "Lobi"
+      "imageUrl": "/images/gallery5.jpg",
+      "imageAlt": "Lobi"
     }
   ],
-  "seo-social-media": {
-    "seo-title": "Talia Otel - Lüks ve Huzurlu Tatilin Adresi",
-    "seo-description": "Akdeniz'de unutulmaz bir konaklama deneyimi için Talia Otel. Lüks odalar, eşsiz manzaralar ve kusursuz hizmet. Hemen rezervasyon yapın!",
+  "seoSocialMedia": {
+    "seoTitle": "Talia Otel - Lüks ve Huzurlu Tatilin Adresi",
+    "seoDescription": "Akdeniz'de unutulmaz bir konaklama deneyimi için Talia Otel. Lüks odalar, eşsiz manzaralar ve kusursuz hizmet. Hemen rezervasyon yapın!",
     "phone": "+90 242 123 45 67",
     "email": "info@taliahotel.com"
   },
-  "hotel-address": {
+  "hotelAddress": {
     "address": "Örnek Caddesi No: 123, Antalya, Türkiye"
   },
   "footer": {
-    "logo-url": "/images/logo.svg"
+    "logoUrl": "/images/logo.svg"
   }
 }
